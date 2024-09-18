@@ -24,7 +24,7 @@ The content of the `<$edit-text>` widget is ignored.
 |default |The default text to be provided when the target tiddler doesn't exist |
 |class |A CSS class to be assigned to the generated HTML editing element |
 |placeholder |Placeholder text to be displayed when the edit field is empty |
-|focusPopup |Title of a state tiddler for a popup that is displayed when the editing element has focus  |
+|focusPopup |Title of a state tiddler for a popup that is displayed when the editing element has focus. <<.from-version "5.1.5">> This widget also needs `class-tc-popup-handle` for this to work. |
 |focus |Set to "yes" or "true" to automatically focus the editor after creation |
 |focusSelectFromStart |<<.from-version 5.2.6>> If the `focus` attribute is enabled, determines the position of the start of the selection: `0` (default) places the start of the selection at the beginning of the text, `1` places the start of the selection after the first character, etc.  |
 |focusSelectFromEnd |<<.from-version 5.2.6>> If the `focus` attribute is enabled, determines the position of the end of the selection: `0` (default) places the end of the selection at the end of the text, `1` places the start of the selection before the final character, etc.  |
